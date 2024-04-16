@@ -1,0 +1,17 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: baseline;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+  width: 200px;
+}
+.error {
+  color: rgb(229, 8, 8);
+}
+.buttonAdd {
+  color: green;
+}

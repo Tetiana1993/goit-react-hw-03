@@ -8,11 +8,15 @@ const Contact = ({ contact, contactDelete }) => {
   };
   return (
     <>
-      <ul className={css["contact-info"]}>
+      <ul className={css.contacts}>
         <li>{name}</li>
         <li>{number}</li>
       </ul>
-      <button type="button" onClick={deleteContact}>
+      <button
+        className={css.deleteContact}
+        type="button"
+        onClick={deleteContact}
+      >
         Delete
       </button>
     </>

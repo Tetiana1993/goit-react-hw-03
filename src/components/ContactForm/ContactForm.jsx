@@ -46,7 +46,9 @@ const ContactForm = ({ addNewContact }) => {
         <label htmlFor={contactNumberId}>Number</label>
         <Field type="number" name="number" id={contactNumberId} />
         <ErrorMessage className={css.error} name="number" component="span" />
-        <button type="submit">Add contact</button>
+        <button className={css.buttonAdd} type="submit">
+          Add contact
+        </button>
       </Form>
     </Formik>
   );
